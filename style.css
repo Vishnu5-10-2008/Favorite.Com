@@ -1,0 +1,87 @@
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.menu {
+      list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}  
+
+.links {
+    float: left;
+    color: red;
+    padding-top: 5;
+    padding-left: 9;
+    padding-right: 9;
+    padding-bottom: 5;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+
+#bio {
+    text-align: center color: black;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background: #000;
+    width: 500px;
+    margin: 8px auto;
+}
+
+.p {
+    font-size: 17px;
+}
+
+#Contact {
+    text-align: center
+}
+
+#videos {
+    text-align: center;
+}
